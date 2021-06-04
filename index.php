@@ -47,6 +47,7 @@ $renderedTable = (new HtmlDataGrid($defaultMainTemplate))
     <title>DataGrid sample</title>
 </head>
 <body>
+    <!-- Rendered table -->
     <div style="width: 70%; margin: 0 auto; padding-top: 50px">
         <?php echo $renderedTable ?>
     </div>
