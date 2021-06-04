@@ -1,0 +1,27 @@
+{
+    "name": "bieronski/data-grid-sample",
+    "description": "On presentation data grid library",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bieronski\\DataGridSample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafał B.",
+            "email": "bieronski@yahoo.pl"
+        }
+    ],
+    "require": {
+        "bieronski/data-grid": "*",
+        "ext-json": "*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:Buck3thead/DataGrid.git"
+        }
+    ]
+}
