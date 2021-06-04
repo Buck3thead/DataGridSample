@@ -28,9 +28,9 @@ $config = (new DefaultConfig($defaultTemplates))
     ->addLinkColumn('email');
 
 // Render to string
-$renderedTable = 'ffff';// (new HtmlDataGrid($defaultMainTemplate))
-//    ->withConfig($config)
-//    ->render($rows, $state);
+$renderedTable = (new HtmlDataGrid($defaultMainTemplate))
+    ->withConfig($config)
+    ->render($rows, $state);
 
 /* ------------------------------------------------------------------------------------------------ */
 ?>
