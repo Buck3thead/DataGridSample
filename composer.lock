@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "bieronski/data-grid",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Buck3thead/DataGrid.git",
-                "reference": "fedfcb82a19714e623591eeff40171acdf325e45"
+                "reference": "9471f07fb7d22cae4d47ba7fce59bd827473d565"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Buck3thead/DataGrid/zipball/fedfcb82a19714e623591eeff40171acdf325e45",
-                "reference": "fedfcb82a19714e623591eeff40171acdf325e45",
+                "url": "https://api.github.com/repos/Buck3thead/DataGrid/zipball/9471f07fb7d22cae4d47ba7fce59bd827473d565",
+                "reference": "9471f07fb7d22cae4d47ba7fce59bd827473d565",
                 "shasum": ""
             },
             "require": {
@@ -45,10 +45,10 @@
             ],
             "description": "Array to html table renderer.",
             "support": {
-                "source": "https://github.com/Buck3thead/DataGrid/tree/1.0.3",
+                "source": "https://github.com/Buck3thead/DataGrid/tree/1.0.4",
                 "issues": "https://github.com/Buck3thead/DataGrid/issues"
             },
-            "time": "2021-06-05T14:48:52+00:00"
+            "time": "2021-06-05T15:11:36+00:00"
         }
     ],
     "packages-dev": [],
