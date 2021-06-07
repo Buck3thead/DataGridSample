@@ -2,13 +2,16 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
+use Bieronski\DataGrid\Processor\NonBreakingSpacesArrayTextProcessor;
 use Bieronski\DataGrid\Config\DefaultConfig;
 use Bieronski\DataGrid\DataGrid\HtmlDataGrid;
 use Bieronski\DataGrid\State\HttpState;
 use Bieronski\DataGrid\Template\DefaultTemplate;
 
 // Read array to render
-$rows = json_decode(file_get_contents('DataSet.json'), true);
+$rows = NonBreakingSpacesArrayTextProcessor::process(
+        json_decode(file_get_contents('DataSet.json'), true)
+);
 
 // To separate business logic used additional rendering Template class
 $defaultTemplates = json_decode(file_get_contents(__DIR__ .'/vendor/bieronski/data-grid/templates/defaults.json'), true);
