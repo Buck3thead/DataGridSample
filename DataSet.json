@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "balance": "3055.76",
+        "balance": 3055.76,
         "name": "Celina Collins",
-        "age": "7jv",
+        "age": 23,
         "gender": "female",
         "company": "NETBOOK",
         "email": "celinacollins@netbook.com",
@@ -20,8 +20,24 @@
         "phone": "+1 (988) 489-3691"
     },
     {
-        "id": "testErrorRow",
-        "gender": "male"
+        "id": 3,
+        "balance": 3266.87,
+        "name": "Augusta Mccarty",
+        "age": 23,
+        "gender": "female",
+        "company": "SONGBIRD",
+        "email": "augustamccarty@songbird.com",
+        "phone": "+1 (987) 470-3284"
+    },
+    {
+        "id": 4,
+        "balance": 2670.3,
+        "name": "Beasley Rocha",
+        "age": 30,
+        "gender": "male",
+        "company": "MARKETOID",
+        "email": "beasleyrocha@marketoid.com",
+        "phone": "+1 (845) 429-2442"
     },
     {
         "id": 5,
@@ -29,7 +45,7 @@
         "name": "Hayes Peters",
         "age": 25,
         "gender": "male",
-        "company": "ASDF",
+        "company": "QUILCH",
         "email": "hayespeters@quilch.com",
         "phone": "+1 (843) 491-2707"
     },
